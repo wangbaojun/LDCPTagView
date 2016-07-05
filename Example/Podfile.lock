@@ -1,0 +1,14 @@
+PODS:
+  - LDCPTagView (0.1.0)
+
+DEPENDENCIES:
+  - LDCPTagView (from `../`)
+
+EXTERNAL SOURCES:
+  LDCPTagView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LDCPTagView: 5bfec1097f7dc19f2f9198ea60b667a4121b89f4
+
+COCOAPODS: 0.39.0

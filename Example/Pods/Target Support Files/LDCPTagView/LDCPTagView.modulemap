@@ -1,0 +1,6 @@
+framework module LDCPTagView {
+  umbrella header "LDCPTagView-umbrella.h"
+
+  export *
+  module * { export * }
+}
