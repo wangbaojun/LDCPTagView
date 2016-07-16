@@ -7,12 +7,22 @@
 //
 
 #import "LDCPAppDelegate.h"
+#import "HYGMainViewController.h"
+#import "LDCPViewController.h"
+#import "HYGSigleLineViewController.h"
 
 @implementation LDCPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+      HYGMainViewController *mainViewController = [[HYGMainViewController alloc]init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

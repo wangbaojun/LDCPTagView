@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A2B184BA4A7FBAD74EC114D1'
+               BlueprintIdentifier = '7D1148622355F4C771D89A7D'
                BlueprintName = 'LDCPTagView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LDCPTagView.framework'>

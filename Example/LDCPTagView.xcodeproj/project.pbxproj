@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2974A2D61D3A9B23003FC20F /* HYGNoHistoryButRecView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2D41D3A9B23003FC20F /* HYGNoHistoryButRecView.m */; };
+		2974A2DD1D3AA3A8003FC20F /* HYGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2DC1D3AA3A8003FC20F /* HYGMainViewController.m */; };
+		2974A2E01D3AA6AF003FC20F /* HYGMultiLinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2DF1D3AA6AF003FC20F /* HYGMultiLinesViewController.m */; };
+		2974A2E31D3AA9EA003FC20F /* HYGSigleLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2E21D3AA9EA003FC20F /* HYGSigleLineViewController.m */; };
+		2974A2E61D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2E51D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.m */; };
 		5ADCBA4909D8FDE3427D7BA9 /* Pods_LDCPTagView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C8ECD7C5ED195F29211482 /* Pods_LDCPTagView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -35,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2974A2D31D3A9B23003FC20F /* HYGNoHistoryButRecView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGNoHistoryButRecView.h; sourceTree = "<group>"; };
+		2974A2D41D3A9B23003FC20F /* HYGNoHistoryButRecView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGNoHistoryButRecView.m; sourceTree = "<group>"; };
+		2974A2DA1D3AA0E5003FC20F /* HYGTagViewTapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGTagViewTapEvent.h; sourceTree = "<group>"; };
+		2974A2DB1D3AA3A8003FC20F /* HYGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGMainViewController.h; sourceTree = "<group>"; };
+		2974A2DC1D3AA3A8003FC20F /* HYGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGMainViewController.m; sourceTree = "<group>"; };
+		2974A2DE1D3AA6AF003FC20F /* HYGMultiLinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGMultiLinesViewController.h; sourceTree = "<group>"; };
+		2974A2DF1D3AA6AF003FC20F /* HYGMultiLinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGMultiLinesViewController.m; sourceTree = "<group>"; };
+		2974A2E11D3AA9EA003FC20F /* HYGSigleLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGSigleLineViewController.h; sourceTree = "<group>"; };
+		2974A2E21D3AA9EA003FC20F /* HYGSigleLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGSigleLineViewController.m; sourceTree = "<group>"; };
+		2974A2E41D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGHasHistoryNoMatterRecView.h; sourceTree = "<group>"; };
+		2974A2E51D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGHasHistoryNoMatterRecView.m; sourceTree = "<group>"; };
 		3F37EA56E4554887AFD39D60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LDCPTagView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDCPTagView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +140,11 @@
 		6003F593195388D20070C39A /* Example for LDCPTagView */ = {
 			isa = PBXGroup;
 			children = (
+				2974A2E41D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.h */,
+				2974A2E51D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.m */,
+				2974A2DA1D3AA0E5003FC20F /* HYGTagViewTapEvent.h */,
+				2974A2D31D3A9B23003FC20F /* HYGNoHistoryButRecView.h */,
+				2974A2D41D3A9B23003FC20F /* HYGNoHistoryButRecView.m */,
 				6003F59C195388D20070C39A /* LDCPAppDelegate.h */,
 				6003F59D195388D20070C39A /* LDCPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -131,6 +152,12 @@
 				6003F5A6195388D20070C39A /* LDCPViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				2974A2DB1D3AA3A8003FC20F /* HYGMainViewController.h */,
+				2974A2DC1D3AA3A8003FC20F /* HYGMainViewController.m */,
+				2974A2DE1D3AA6AF003FC20F /* HYGMultiLinesViewController.h */,
+				2974A2DF1D3AA6AF003FC20F /* HYGMultiLinesViewController.m */,
+				2974A2E11D3AA9EA003FC20F /* HYGSigleLineViewController.h */,
+				2974A2E21D3AA9EA003FC20F /* HYGSigleLineViewController.m */,
 			);
 			name = "Example for LDCPTagView";
 			path = LDCPTagView;
@@ -334,9 +361,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2974A2D61D3A9B23003FC20F /* HYGNoHistoryButRecView.m in Sources */,
+				2974A2E01D3AA6AF003FC20F /* HYGMultiLinesViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LDCPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LDCPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2974A2E31D3AA9EA003FC20F /* HYGSigleLineViewController.m in Sources */,
+				2974A2E61D3AAA11003FC20F /* HYGHasHistoryNoMatterRecView.m in Sources */,
+				2974A2DD1D3AA3A8003FC20F /* HYGMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
